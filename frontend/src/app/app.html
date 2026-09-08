@@ -1,0 +1,20 @@
+<main>
+  <h1>Interview scaffold</h1>
+
+  <section class="card">
+    <h2>Message from the database</h2>
+
+    @if (loading()) {
+      <p class="muted">Loading&hellip;</p>
+    } @else if (error()) {
+      <p class="error" role="alert">{{ error() }}</p>
+    } @else {
+      <p class="greeting">{{ greeting() }}</p>
+    }
+  </section>
+
+  <p class="muted">
+    Angular calls <code>GET /api/hello</code>, which the dev server proxies to Flask, which reads
+    the single row in the <code>greeting</code> table.
+  </p>
+</main>

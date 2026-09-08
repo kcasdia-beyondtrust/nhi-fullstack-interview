@@ -1,0 +1,32 @@
+main {
+  max-width: 42rem;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.card {
+  border: 1px solid #d8dee4;
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.greeting {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.error {
+  color: #b42318;
+  margin: 0;
+}
+
+.muted {
+  color: #57606a;
+}
+
+code {
+  background: #f0f2f4;
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.3rem;
+}
